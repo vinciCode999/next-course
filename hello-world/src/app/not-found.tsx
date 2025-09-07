@@ -1,8 +1,8 @@
 export default function NotFound(){
   return(
-    <div>
+    <div className="h-screen">
       <h2>page not found</h2>
-      <p>could not find the requested resource.</p>
+      <h4>could not find the requested resource.</h4>
     </div>
   )
 }
